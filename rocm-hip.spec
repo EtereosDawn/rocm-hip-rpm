@@ -16,7 +16,7 @@
 # Cmake macro is called within sourcedir but HIP assumes it's called from build
 %define __cmake_in_source_build 1
 
-%global rocm_release 5.4
+%global rocm_release 5.4.2
 %global rocm_patch 1
 %global rocm_version %{rocm_release}.%{rocm_patch}
 
@@ -187,6 +187,6 @@ cd build
 %{_datadir}/hip/samples
 
 %changelog
-* Sun Aug 21 2022 Armin Wehrfritz <dkxls23 at gmail dot com> - 5.2.1-1
-- Initial package for version 5.2.1
+* Sun Aug 21 2022 Armin Wehrfritz <dkxls23 at gmail dot com> - 5.4.2
+- Initial package for version 5.4.2
 - Package based on spec files from mystro256/rocm-hip and Fedora's rocm-opencl
