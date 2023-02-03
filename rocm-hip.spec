@@ -16,7 +16,7 @@
 # Cmake macro is called within sourcedir but HIP assumes it's called from build
 %define __cmake_in_source_build 1
 
-%global rocm_release 5.2
+%global rocm_release 5.4
 %global rocm_patch 1
 %global rocm_version %{rocm_release}.%{rocm_patch}
 
